@@ -14,3 +14,6 @@ Additional capabilities:
    - 'List' files on ESP8266, 
    - 'delete' a file, and
    - 'view' a file into a HTML textarea (text based)
+
+
+![Alt text](./DevFsUpload_broswer-img.png")
