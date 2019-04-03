@@ -16,4 +16,4 @@ Additional capabilities:
    - 'view' a file into a HTML textarea (text based)
 
 
-![Alt text](./DevFsUpload_broswer-img.png")
+![Alt text]./DevFsUpload_broswer-img.png"
