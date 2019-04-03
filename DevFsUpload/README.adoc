@@ -1,0 +1,35 @@
+= DevFsUpload ESP8266 - file upload development tool =
+
+This library provides a ESP8266 development tool to upload file(s) to
+an ESP8266 module that has SPIFFS included. The tool works through
+a webpage to: 
+   - 'browse' to file(s) on a PC, 'upload' the file/files
+   - 'browse' to directory on a PC, 'upload' the file/files 
+     and/or sub-directories file(s) too
+to the ESP8266. 
+
+Additional capabilities:
+   - 'List' files on ESP8266, 
+   - 'delete' a file, and
+   - 'view' a file into a HTML textarea (text based)
+
+== License ==
+
+Copyright (c) 2018 dbradley. All right reserved.
+
+License: 
+
+Use is royality free for development activities (testing, design,....) 
+both commerical and non-commerical.
+
+Modification may be made with the provision:
+-- that a different class name is used. That is; not 'DevFsUpload'. 
+-- An attribute to original program/author is provided in the new code/class.
+
+The code/class is provide AS-IS and has no warranty as to fitness for 
+use. Determining fitness for use is the responsibility of the user.
+
+This code/class may not be productized, that is provided with/along/packaged-with 
+a consumer product, either commerical or non-commerical.
+
+As a program there are working limits on an embedded MCU device.
