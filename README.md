@@ -14,6 +14,7 @@ Additional capabilities:
    - 'List' files on ESP8266, 
    - 'delete' a file, and
    - 'view' a file into a HTML textarea (text based)
-
+   
+NOTE/WARNING: there is no checking for free space on the ESP8266 when uploading files.
 
 ![Alt text](./DevFsUpload_browser-img.png)
