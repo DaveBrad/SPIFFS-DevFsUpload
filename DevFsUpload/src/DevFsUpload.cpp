@@ -101,7 +101,7 @@ void DevFsUpload::handleUploadPage() {
   
   client.println("<form method='post' enctype='multipart/form-data'><input type='file' name='name' multiple onchange='upldbt(\"upldid\");'><button class='btt' id='upldid' disabled>Upload file(s)</button> to SPIFFS root</form>");
  
-  client.println("<form method='post' enctype='multipart/form-data'><input type='file' name='name' multiple webkitdirectory mozdirectory><button class='btt' id='upldiddir' onchange='upldbt(\"upldiddir\");' disabled>Upload Directory</button> all files in: selected-dir and sub-dir(s)</form>");
+  client.println("<form method='post' enctype='multipart/form-data'><input type='file' name='name' multiple webkitdirectory mozdirectory onchange='upldbt(\"upldiddir\");' ><button class='btt' id='upldiddir'  disabled>Upload Directory</button> all files in: selected-dir and sub-dir(s)</form>");
   
   if(uploadAction){
 	if (upldFileList != "") {
